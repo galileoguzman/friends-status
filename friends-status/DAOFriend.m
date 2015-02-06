@@ -16,7 +16,7 @@ NSInteger *lastRecord;
 -(void)initDatabase{
     NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
     NSString *documentsDirectory = [paths objectAtIndex:0];
-    databasePath = [documentsDirectory stringByAppendingPathComponent:@"dataBase.db"];
+    databasePath = [documentsDirectory stringByAppendingPathComponent:@"db.db"];
     bool databaseAlreadyExists = [[NSFileManager defaultManager] fileExistsAtPath:databasePath];
     if (sqlite3_open([databasePath UTF8String], &databaseHandle) == SQLITE_OK)
     {
