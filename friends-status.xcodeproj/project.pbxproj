@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F2203A601A845A1700F39311 /* avatar.png in Resources */ = {isa = PBXBuildFile; fileRef = F2203A5F1A845A1700F39311 /* avatar.png */; };
+		F2203A6A1A845BD500F39311 /* cam.png in Resources */ = {isa = PBXBuildFile; fileRef = F2203A681A845BD500F39311 /* cam.png */; };
+		F2203A6B1A845BD500F39311 /* camera.png in Resources */ = {isa = PBXBuildFile; fileRef = F2203A691A845BD500F39311 /* camera.png */; };
+		F2203A6E1A845E0C00F39311 /* NewFriend.m in Sources */ = {isa = PBXBuildFile; fileRef = F2203A6D1A845E0C00F39311 /* NewFriend.m */; };
+		F2203A701A8460FB00F39311 /* camarita.png in Resources */ = {isa = PBXBuildFile; fileRef = F2203A6F1A8460FB00F39311 /* camarita.png */; };
+		F2203A731A84923800F39311 /* CeldaFriend.m in Sources */ = {isa = PBXBuildFile; fileRef = F2203A721A84923800F39311 /* CeldaFriend.m */; };
+		F245DBE31A851966008A4DBB /* DetailFriend.m in Sources */ = {isa = PBXBuildFile; fileRef = F245DBE21A851966008A4DBB /* DetailFriend.m */; };
 		F2A167651A82C5C8006FCD09 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F2A167641A82C5C8006FCD09 /* main.m */; };
 		F2A167681A82C5C8006FCD09 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F2A167671A82C5C8006FCD09 /* AppDelegate.m */; };
 		F2A1676B1A82C5C8006FCD09 /* Home.m in Sources */ = {isa = PBXBuildFile; fileRef = F2A1676A1A82C5C8006FCD09 /* Home.m */; };
@@ -14,6 +21,10 @@
 		F2A167701A82C5C8006FCD09 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2A1676F1A82C5C8006FCD09 /* Images.xcassets */; };
 		F2A167731A82C5C8006FCD09 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2A167711A82C5C8006FCD09 /* LaunchScreen.xib */; };
 		F2A1677F1A82C5C9006FCD09 /* friends_statusTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F2A1677E1A82C5C9006FCD09 /* friends_statusTests.m */; };
+		F2A167891A82F885006FCD09 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F2A167881A82F885006FCD09 /* libsqlite3.dylib */; };
+		F2A1678E1A82F9AC006FCD09 /* DAO.m in Sources */ = {isa = PBXBuildFile; fileRef = F2A1678D1A82F9AC006FCD09 /* DAO.m */; };
+		F2A167911A82FD25006FCD09 /* Friend.m in Sources */ = {isa = PBXBuildFile; fileRef = F2A167901A82FD25006FCD09 /* Friend.m */; };
+		F2A167941A830448006FCD09 /* DAOFriend.m in Sources */ = {isa = PBXBuildFile; fileRef = F2A167931A830448006FCD09 /* DAOFriend.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +38,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F2203A5F1A845A1700F39311 /* avatar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = avatar.png; sourceTree = "<group>"; };
+		F2203A681A845BD500F39311 /* cam.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cam.png; sourceTree = "<group>"; };
+		F2203A691A845BD500F39311 /* camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera.png; sourceTree = "<group>"; };
+		F2203A6C1A845E0C00F39311 /* NewFriend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewFriend.h; sourceTree = "<group>"; };
+		F2203A6D1A845E0C00F39311 /* NewFriend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewFriend.m; sourceTree = "<group>"; };
+		F2203A6F1A8460FB00F39311 /* camarita.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camarita.png; sourceTree = "<group>"; };
+		F2203A711A84923800F39311 /* CeldaFriend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CeldaFriend.h; sourceTree = "<group>"; };
+		F2203A721A84923800F39311 /* CeldaFriend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CeldaFriend.m; sourceTree = "<group>"; };
+		F245DBE11A851966008A4DBB /* DetailFriend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailFriend.h; sourceTree = "<group>"; };
+		F245DBE21A851966008A4DBB /* DetailFriend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailFriend.m; sourceTree = "<group>"; };
 		F2A1675F1A82C5C8006FCD09 /* friends-status.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "friends-status.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2A167631A82C5C8006FCD09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F2A167641A82C5C8006FCD09 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +61,13 @@
 		F2A167781A82C5C9006FCD09 /* friends-statusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "friends-statusTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2A1677D1A82C5C9006FCD09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F2A1677E1A82C5C9006FCD09 /* friends_statusTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = friends_statusTests.m; sourceTree = "<group>"; };
+		F2A167881A82F885006FCD09 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		F2A1678C1A82F9AC006FCD09 /* DAO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DAO.h; sourceTree = "<group>"; };
+		F2A1678D1A82F9AC006FCD09 /* DAO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DAO.m; sourceTree = "<group>"; };
+		F2A1678F1A82FD25006FCD09 /* Friend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Friend.h; sourceTree = "<group>"; };
+		F2A167901A82FD25006FCD09 /* Friend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Friend.m; sourceTree = "<group>"; };
+		F2A167921A830448006FCD09 /* DAOFriend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DAOFriend.h; sourceTree = "<group>"; };
+		F2A167931A830448006FCD09 /* DAOFriend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DAOFriend.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2A167891A82F885006FCD09 /* libsqlite3.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,6 +89,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F2203A5E1A845A1700F39311 /* static */ = {
+			isa = PBXGroup;
+			children = (
+				F2203A6F1A8460FB00F39311 /* camarita.png */,
+				F2203A681A845BD500F39311 /* cam.png */,
+				F2203A691A845BD500F39311 /* camera.png */,
+				F2203A5F1A845A1700F39311 /* avatar.png */,
+			);
+			path = static;
+			sourceTree = "<group>";
+		};
 		F2A167561A82C5C8006FCD09 = {
 			isa = PBXGroup;
 			children = (
@@ -81,14 +121,21 @@
 		F2A167611A82C5C8006FCD09 /* friends-status */ = {
 			isa = PBXGroup;
 			children = (
+				F2203A5E1A845A1700F39311 /* static */,
+				F2A1678B1A82F976006FCD09 /* Models */,
 				F2A167661A82C5C8006FCD09 /* AppDelegate.h */,
 				F2A167671A82C5C8006FCD09 /* AppDelegate.m */,
 				F2A167691A82C5C8006FCD09 /* Home.h */,
 				F2A1676A1A82C5C8006FCD09 /* Home.m */,
+				F2203A6C1A845E0C00F39311 /* NewFriend.h */,
+				F2203A6D1A845E0C00F39311 /* NewFriend.m */,
+				F245DBE11A851966008A4DBB /* DetailFriend.h */,
+				F245DBE21A851966008A4DBB /* DetailFriend.m */,
 				F2A1676C1A82C5C8006FCD09 /* Main.storyboard */,
 				F2A1676F1A82C5C8006FCD09 /* Images.xcassets */,
 				F2A167711A82C5C8006FCD09 /* LaunchScreen.xib */,
 				F2A167621A82C5C8006FCD09 /* Supporting Files */,
+				F2A1678A1A82F89D006FCD09 /* Frameworks */,
 			);
 			path = "friends-status";
 			sourceTree = "<group>";
@@ -117,6 +164,30 @@
 				F2A1677D1A82C5C9006FCD09 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F2A1678A1A82F89D006FCD09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F2A167881A82F885006FCD09 /* libsqlite3.dylib */,
+			);
+			name = Frameworks;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		F2A1678B1A82F976006FCD09 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F2A1678C1A82F9AC006FCD09 /* DAO.h */,
+				F2A1678D1A82F9AC006FCD09 /* DAO.m */,
+				F2A1678F1A82FD25006FCD09 /* Friend.h */,
+				F2A167901A82FD25006FCD09 /* Friend.m */,
+				F2A167921A830448006FCD09 /* DAOFriend.h */,
+				F2A167931A830448006FCD09 /* DAOFriend.m */,
+				F2203A711A84923800F39311 /* CeldaFriend.h */,
+				F2203A721A84923800F39311 /* CeldaFriend.m */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,8 +270,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2203A701A8460FB00F39311 /* camarita.png in Resources */,
+				F2203A601A845A1700F39311 /* avatar.png in Resources */,
 				F2A1676E1A82C5C8006FCD09 /* Main.storyboard in Resources */,
+				F2203A6A1A845BD500F39311 /* cam.png in Resources */,
 				F2A167731A82C5C8006FCD09 /* LaunchScreen.xib in Resources */,
+				F2203A6B1A845BD500F39311 /* camera.png in Resources */,
 				F2A167701A82C5C8006FCD09 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,8 +294,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2A1678E1A82F9AC006FCD09 /* DAO.m in Sources */,
+				F2203A731A84923800F39311 /* CeldaFriend.m in Sources */,
+				F2A167911A82FD25006FCD09 /* Friend.m in Sources */,
 				F2A1676B1A82C5C8006FCD09 /* Home.m in Sources */,
+				F2203A6E1A845E0C00F39311 /* NewFriend.m in Sources */,
+				F245DBE31A851966008A4DBB /* DetailFriend.m in Sources */,
 				F2A167681A82C5C8006FCD09 /* AppDelegate.m in Sources */,
+				F2A167941A830448006FCD09 /* DAOFriend.m in Sources */,
 				F2A167651A82C5C8006FCD09 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,6 +493,7 @@
 				F2A167841A82C5C9006FCD09 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F2A167851A82C5C9006FCD09 /* Build configuration list for PBXNativeTarget "friends-statusTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +502,7 @@
 				F2A167871A82C5C9006FCD09 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
